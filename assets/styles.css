@@ -165,7 +165,7 @@ html {
 
 .titulo__padrao  {
   color: #000000;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -201,14 +201,17 @@ html {
   background: #fff;
   display: flex;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   text-decoration: none;
   
 }
 
 .categoria__wrapper-item:hover{
-  background: rgba(255, 125, 35, 0.4);
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
+  -webkit-box-shadow: 9px 11px 8px -6px rgba(0,0,0,0.68);
+  -moz-box-shadow: 9px 11px 8px -6px rgba(0,0,0,0.68);
+  box-shadow: 9px 11px 8px -6px rgba(0,0,0,0.68);
 }
 
 .categorias .categoria__logo{
@@ -224,8 +227,14 @@ html {
     
 }
 
+.categorias .categoria__logo img{
+  width: 3.8rem;
+  height: 3.8rem;
+  object-fit: contain;
+}
+
 .categorias .categoria__titulo {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.6rem;
@@ -233,6 +242,50 @@ html {
   color: #000000;
 }
 
-.categorias .categoria__botao{
-  border: none;
+/**Daqui para baixo precisa rever**/
+
+.vaga {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 5.6rem;
+  box-shadow: 10px 5px 5px black;
+  margin: 2.5rem;
+  border-radius: 1rem;
+
 }
+
+.vaga__descricao a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 3.6rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 800;
+}
+
+.vaga__descricao a img {
+  height: 7rem;
+  width: 15.4rem;
+  object-fit: contain;
+  margin-right: 2.0rem;
+
+}
+
+.ver__vaga a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  background-color: #FF7D23;
+  padding: 0.96rem 2.2rem ;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  border-radius: 1.2rem;
+  display: inline-block;
+  text-align: center;
+
+}
+
