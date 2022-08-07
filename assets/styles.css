@@ -160,9 +160,10 @@ html {
 
 .categorias {
   background-color: #ff7f231c;
+  padding: 2rem;
 }
 
-.categorias .titulo__padrao  {
+.titulo__padrao  {
   color: #000000;
   font-family: 'Poppins';
   font-style: normal;
@@ -179,7 +180,7 @@ html {
   grid-gap: 2rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .categoria__wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -201,7 +202,13 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
+  text-decoration: none;
   
+}
+
+.categoria__wrapper-item:hover{
+  background: rgba(255, 125, 35, 0.4);
+  transition: all .2s ease-in-out;
 }
 
 .categorias .categoria__logo{
@@ -209,6 +216,11 @@ html {
   padding: 2rem;
   border-radius: 50%;
   margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 7.2rem;
+  height: 7.2rem;
     
 }
 
@@ -216,7 +228,11 @@ html {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.6rem;
   text-align: center;
   color: #000000;
+}
+
+.categorias .categoria__botao{
+  border: none;
 }
