@@ -6,35 +6,106 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700;800&family=Poppins:wght@700&display=swap" 
+    rel="stylesheet"
+    >
   <link rel="stylesheet" href="/assets/styles.css">
   <link rel="icon" href="/img/logo.png">
   <title>Flisol Empregos</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="/img/logo 1.svg" alt="Logo Flisol">
-            Empregos
-        </a>
-        <div class="collapse navbar-collapse">
-            <div class="mr-auto"></div>
-                <ul class="navbar-nav my-2 my-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Postar Vagas
-                    </li> 
-                </ul>       
-            </div>          
+  <header class="cabecalho">
+        <div class="cabecalho__logo">
+            <a href="#">
+                <img src="/img/logo 1.svg" alt="Logo Flisol">
+                <span>Empregos</span>
+            </a>
         </div>
-  </nav>
+        
+        <div class="cabecalho__botao">
+            <a href="#">Postar Vagas 
+            </a>         
+        </div>
+  </header>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <main>
+    <section class="banner">
+        <div class="banner__titulo">
+            <h1>Vagas Em Empresas <br> 
+                Apaixonadas Por <br>
+                <strong>Código Livre </strong>
+            </h1>
+        </div>
+
+        <div class="banner__formulario">
+            <form action="">
+                <input type="text" placeholder="Pesquisar por título de trabalho">
+                <button>
+                    Procurar
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="categorias">
+        <h2 class="titulo__padrao">Categorias</h2>
+        <div class="categoria__wrapper">
+            <div class="categoria__wrapper-item">
+                <span class="categoria__logo" >
+                    <a href="#"><img src="/img/Group 30.svg" alt=""></a>
+                </span>
+                <span class="categoria__titulo">Programação</span>    
+            </div>
+
+            <div class="categoria__wrapper-item">
+                <span class="categoria__logo">
+                    <a href="#"><img src="/img/Group 22.svg" alt=""></a>
+                </span>
+                <span class="categoria__titulo">Gestão de <br> Tecnologia</span>    
+            </div>
+            
+            <div class="categoria__wrapper-item">
+                <span>logo</span>
+                <span>titulo</span>    
+            </div>
+            <div class="categoria__wrapper-item">
+                <span>logo</span>
+                <span>titulo</span>    
+            </div>
+            <div class="categoria__wrapper-item">
+                <span>logo</span>
+                <span>titulo</span>    
+            </div>
+            <div class="categoria__wrapper-item">
+                <span>logo</span>
+                <span>titulo</span>    
+            </div>
+            <div class="categoria__wrapper-item">
+                <span>logo</span>
+                <span>titulo</span>    
+            </div>
+            <div class="categoria__wrapper-item">
+                <span>logo</span>
+                <span>titulo</span>    
+            </div>
+            <div class="categoria__wrapper-item">
+                <span>logo</span>
+                <span>titulo</span>    
+            </div>
+            <div class="categoria__wrapper-item">
+                <span>logo</span>
+                <span>titulo</span>    
+            </div>
+        </div>
+
+    </section>
+  </main>
+
 </body>
 
 </html>
+
