@@ -248,29 +248,95 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.6rem 5.6rem;
-  box-shadow: 10px 5px 5px black;
+  padding: 1.5rem 3.6rem;
   margin: 2.5rem;
   border-radius: 1rem;
+  box-shadow: 0px 0px 2px 1px rgba(199,177,177,0.75);
+  -webkit-box-shadow: 0px 0px 2px 1px rgba(199,177,177,0.75);
+  -moz-box-shadow: 0px 0px 2px 1px rgba(199,177,177,0.75);
 
 }
 
-.vaga__descricao a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #000;
-  font-size: 3.6rem;
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 800;
+.vaga .vaga__descricao .vaga__logo {
+  background-color: #fff;
+  padding: 2.6rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px rgba(90, 87, 87, 0.479);
+  
 }
 
-.vaga__descricao a img {
-  height: 7rem;
-  width: 15.4rem;
-  object-fit: contain;
-  margin-right: 2.0rem;
+.vaga .vaga__descricao .titulo__vaga {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 8rem;
+  color: #000000;
 
+}
+
+.vaga .vaga__descricao .vaga__formato .vaga__formato1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  color: #FFFFFF;
+  background-color: #0E71DF;
+  padding: 0.35rem 2.2rem;
+  border-radius: 2rem;
+  margin-right: 2rem;
+}
+
+.vaga .vaga__descricao .vaga__formato .vaga__formato2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  color: #FFFFFF;
+  background-color: #9e8b72;
+  padding: 0.35rem 1.2rem;
+  border-radius: 2rem;
+  margin-right: 2rem;
+}
+
+.vaga .vaga__descricao .vaga__formato .vaga__formato3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  color: #FFFFFF;
+  background-color: #FFB44F;
+  padding: 0.35rem 2.2rem;
+  border-radius: 2rem;
+  margin-right: 2rem;
+}
+
+.vaga .vaga__descricao .vaga__formato .vaga__formato4 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  color: #FFFFFF;
+  background-color: #338573;
+  padding: 0.35rem 3.7rem;
+  border-radius: 2rem;
+  margin-right: 2rem;
+}
+
+.vaga .vaga__descricao .vaga__formato .vaga__formato5 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  color: #FFFFFF;
+  background-color: #338573;
+  padding: 0.35rem 3.5rem;
+  border-radius: 2rem;
 }
 
 .ver__vaga a {
