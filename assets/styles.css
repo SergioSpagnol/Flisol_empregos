@@ -149,13 +149,19 @@ html {
 .banner__formulario form button {
   color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   background-color: #FF7D23;
   border: none;
   padding: 1rem 1.6rem;
   border-radius: 1rem;
   margin-left: -1rem;
   letter-spacing: 0.5px;
+}
+
+.banner__formulario form button:hover{
+  color: #FF7D23;
+  background-color: #fff;
+  font-weight: 700;
 }
 
 .categorias {
@@ -212,10 +218,11 @@ html {
   -webkit-box-shadow: 9px 11px 8px -6px rgba(0,0,0,0.68);
   -moz-box-shadow: 9px 11px 8px -6px rgba(0,0,0,0.68);
   box-shadow: 9px 11px 8px -6px rgba(0,0,0,0.68);
+  background-color: rgba(255, 125, 35, 0.7);
 }
 
 .categorias .categoria__logo{
-  background: rgba(255, 125, 35, 0.7);
+  background: #FF7D23;
   padding: 2rem;
   border-radius: 50%;
   margin: 2rem;
@@ -257,12 +264,29 @@ html {
 
 }
 
+.vaga .vaga__descricao {
+  display: flex;
+  justify-content: baseline;  
+  
+}
+
 .vaga .vaga__descricao .vaga__logo {
   background-color: #fff;
   padding: 2.6rem;
+  margin-right: 3rem;
   border-radius: 50%;
   box-shadow: 0px 0px 1px 1px rgba(90, 87, 87, 0.479);
   
+}
+
+.vaga .vaga__descricao .vaga__nome__empresa {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #5F5858;
+
 }
 
 .vaga .vaga__descricao .titulo__vaga {
@@ -270,9 +294,22 @@ html {
   font-style: normal;
   font-weight: 600;
   font-size: 2.5rem;
-  line-height: 8rem;
+  line-height: 4rem;
   color: #000000;
 
+}
+
+.vaga .vaga__descricao .vaga__local {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 4rem;
+  color: #000000;
+  display: flex; 
+  justify-content: space-between;
+  width: 70%; 
+  padding-bottom: 0.7rem;
 }
 
 .vaga .vaga__descricao .vaga__formato .vaga__formato1 {
@@ -285,7 +322,7 @@ html {
   background-color: #0E71DF;
   padding: 0.35rem 2.2rem;
   border-radius: 2rem;
-  margin-right: 2rem;
+  margin-right: 1.3rem;
 }
 
 .vaga .vaga__descricao .vaga__formato .vaga__formato2 {
@@ -298,7 +335,7 @@ html {
   background-color: #9e8b72;
   padding: 0.35rem 1.2rem;
   border-radius: 2rem;
-  margin-right: 2rem;
+  margin-right: 1.3rem;
 }
 
 .vaga .vaga__descricao .vaga__formato .vaga__formato3 {
@@ -311,7 +348,7 @@ html {
   background-color: #FFB44F;
   padding: 0.35rem 2.2rem;
   border-radius: 2rem;
-  margin-right: 2rem;
+  margin-right: 1.3rem;
 }
 
 .vaga .vaga__descricao .vaga__formato .vaga__formato4 {
@@ -324,7 +361,7 @@ html {
   background-color: #338573;
   padding: 0.35rem 3.7rem;
   border-radius: 2rem;
-  margin-right: 2rem;
+  margin-right: 1.3rem;
 }
 
 .vaga .vaga__descricao .vaga__formato .vaga__formato5 {
@@ -336,10 +373,10 @@ html {
   color: #FFFFFF;
   background-color: #338573;
   padding: 0.35rem 3.5rem;
-  border-radius: 2rem;
+  border-radius: 1.3rem;
 }
 
-.ver__vaga a {
+.vaga .ver__vaga a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -355,3 +392,170 @@ html {
 
 }
 
+.vaga .ver__vaga a:hover {
+  color: #FF7D23;
+  background-color: #fff;
+  border-style: solid;
+  font-weight: 700;
+}
+
+.vagas .veja__mais{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.vagas .veja__mais a{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  background-color: #FF7D23;
+  padding: 0.96rem 2.2rem ;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  border-radius: 1.2rem;
+  margin-top: 7.5rem; 
+  display: flex; 
+  
+}
+
+.vagas .veja__mais a img{
+  padding-left: 1rem;
+   
+}
+
+@media only screen and (max-width: 991px) {
+  .vaga .vaga__descricao .titulo__vaga {
+    font-size: 2rem;
+    line-height: 3rem;  
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .vaga .ver__vaga a {
+    padding: 0.96rem 1.6rem ;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+
+  
+  }
+}
+
+@media only screen and (max-width: 791px) {
+  .vaga .ver__vaga a {
+    padding: 0.96rem 1.4rem ;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+  }
+
+  .vaga .vaga__descricao .vaga__local {
+    font-size: 1rem;
+    line-height: 3rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .vaga .vaga__descricao .vaga__formato .vaga__formato1 {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+    padding: 0.35rem 2rem;
+  }
+
+  .vaga .vaga__descricao .vaga__formato .vaga__formato2 {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+    padding: 0.35rem 1rem;
+  }
+
+  .vaga .vaga__descricao .vaga__formato .vaga__formato3 {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+    padding: 0.35rem 2rem;
+  }
+
+  .vaga .vaga__descricao .vaga__formato .vaga__formato4 {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+    padding: 0.35rem 3.2rem;
+  }
+
+  .vaga .vaga__descricao .vaga__formato .vaga__formato5 {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+    padding: 0.35rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 641px) {
+  .vaga .vaga__descricao .vaga__formato .vaga__formato1 {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    border-radius: 2rem;
+    margin-right: 0.4rem;
+    padding: 0.35rem 1.4rem;
+  }
+
+  .vaga .vaga__descricao .vaga__formato .vaga__formato2 {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    border-radius: 2rem;
+    margin-right: 0.4rem;
+    padding: 0.35rem 0.9rem;
+  }
+
+  .vaga .vaga__descricao .vaga__formato .vaga__formato3 {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    border-radius: 2rem;
+    margin-right: 0.4rem;
+    padding: 0.35rem 1.8rem;
+  }
+
+  .vaga .vaga__descricao .vaga__formato .vaga__formato4 {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    border-radius: 2rem;
+    margin-right: 0.4rem;
+    padding: 0.35rem 3rem;
+  }
+
+  .vaga .vaga__descricao .vaga__formato .vaga__formato5 {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    border-radius: 2rem;
+    margin-right: 0.4rem;
+    padding: 0.35rem 2.8rem;
+  }
+
+  .vaga .vaga__descricao .titulo__vaga {
+    font-size: 1.8rem;
+    line-height: 2.6rem;  
+  }
+}
+
+.rodape a{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  background-color: #FF7D23;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 7.9rem;
+}
