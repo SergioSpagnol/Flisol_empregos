@@ -564,3 +564,76 @@ html {
   justify-content: center;
   margin-top: 7.9rem;
 }
+
+/** Layout da vaga principal**/
+
+.vaga__principal .vaga__titulo {
+  background: #F4F5F7;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 8rem;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.vaga__aplicar{
+  margin-top: 8rem;
+  margin-left: 8.7rem;
+  margin-right: 6rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.57);
+  box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.57);
+}
+
+.vaga__principal .vaga__aplicar img{
+  padding-left: 0.5rem;
+}
+
+.vaga__principal .vaga__aplicar a{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  background-color: #FF7D23;
+  padding: 0.96rem 2.2rem ;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  border-radius: 1.2rem;
+  
+}
+
+.atributos__vaga{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 4rem;
+  color: #000000;
+  margin-top: 8rem;
+  margin-left: 8.7rem;
+  margin-right: 6rem;
+  
+}
+
+.atributos__vaga a{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  background-color: #FF7D23;
+  padding: 0.96rem 2.2rem ;
+  margin-top: 5rem;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  border-radius: 1.2rem;
+  
+}
+
