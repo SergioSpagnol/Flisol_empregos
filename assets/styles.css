@@ -634,6 +634,116 @@ html {
   font-size: 1.8rem;
   line-height: 3.2rem;
   border-radius: 1.2rem;
+  display: inline-block;
+  align-content: center;
   
 }
+
+/** Layout Vagas**/
+
+.pesquisa .fundo{
+  background: #EFF6F2;
+  width: 150.1rem;
+  height: 20.3rem;
+
+}
+
+.pesquisa .botao__procurar {
+  width: 120rem;
+  height: 20rem;
+  background: #FFFFFF;
+  border: 1px solid #EFEFF0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  position: relative;
+  margin-top: -10rem;
+  margin-left: 8rem;
+  display: block;
+  text-align: center;
+  padding-top: 7.5rem;
+  
+}
+
+.pesquisa .botao__procurar input{
+  width: 46rem;
+  height: 5rem;
+  background: #FFFFFF;
+  border: 1px solid #D6D6D6;
+  border-radius: 1.5rem;
+  text-align: center;
+
+}
+
+.pesquisa .botao__procurar input::placeholder{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 22px;
+  color: #AEB0B4;
+}
+
+.pesquisa .botao__procurar input:focus {
+  outline: none;
+  transition: all .2s ease;
+  -webkit-box-shadow: 9px 11px 8px -6px rgba(0,0,0,0.68);
+  -moz-box-shadow: 9px 11px 8px -6px rgba(0,0,0,0.68);
+  box-shadow: 9px 11px 8px -6px rgba(0,0,0,0.68);
+}
+
+.pesquisa .botao__procurar button{
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  background-color: #FF7D23;
+  border: none;
+  padding: 1rem 1.6rem;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.pesquisa .vagas__encontradas h1{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 8rem;
+  color: #000000;
+}
+
+.lista{
+  display: inline-block;
+}
+
+.pesquisa .veja__mais{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.pesquisa .veja__mais a{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  background-color: #FF7D23;
+  padding: 0.96rem 2.2rem ;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  border-radius: 1.2rem;
+  margin-top: 7.5rem; 
+  display: flex; 
+  
+}
+
+.pesquisa .veja__mais a img{
+  padding-left: 1rem;
+   
+}
+
+
+
+
 
