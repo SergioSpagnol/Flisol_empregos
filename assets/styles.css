@@ -717,11 +717,12 @@ html {
 
 .conteudo {
   display: grid;
-  grid-template-columns: 30vw 70vw;
-  padding: 9.2rem;
+  grid-template-columns: 1fr 4fr;
+  padding: 7.2rem 5.2rem;
+
 }
 
-.pesquisa .vagas__encontradas h1{
+.conteudo .vagas__encontradas h1{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -731,16 +732,33 @@ html {
 }
 
 .lista{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  padding-top: 11rem;
+  color: #000000;
   display: inline-block;
 }
 
-.pesquisa .veja__mais{
+.lista a{
+  list-style-type: none;
+  text-decoration: none;
+  color: #000000;
+}
+
+.lista .filtro__lista{
+  color: #FF7D23;
+}
+
+.conteudo .veja__mais{
   display: flex;
   justify-content: center;
   
 }
 
-.pesquisa .veja__mais a{
+.conteudo .veja__mais a{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -756,7 +774,7 @@ html {
   
 }
 
-.pesquisa .veja__mais a img{
+.conteudo .veja__mais a img{
   padding-left: 1rem;
    
 }
